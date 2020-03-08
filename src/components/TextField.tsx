@@ -1,4 +1,5 @@
 import React from "react";
+import "./TextField.scss";
 
 interface TextFieldProps {
   type: string;

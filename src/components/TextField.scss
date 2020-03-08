@@ -1,0 +1,19 @@
+.text-field {
+  input {
+    display: block;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid aquamarine;
+    font-family: inherit;
+    transition: 0.3s ease-in-out;
+  }
+
+  input:focus {
+    border-bottom-width: 3px;
+    border-bottom-color: aqua;
+  }
+
+  span.error {
+    color: red;
+  }
+}
