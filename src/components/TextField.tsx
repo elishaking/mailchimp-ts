@@ -5,7 +5,7 @@ interface TextFieldProps {
   type: string;
   name: string;
   placeholder: string;
-  value: string;
+  value?: string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   error?: string;
 }

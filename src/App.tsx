@@ -9,7 +9,7 @@ function App() {
         type="text"
         name="name"
         placeholder="name"
-        value=""
+        // value=""
         onChange={e => console.log(e.target.value)}
       />
     </div>
