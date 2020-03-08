@@ -8,8 +8,8 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <form onSubmit={onSubmit}>
+    <div className="app">
+      <form onSubmit={onSubmit} className="form">
         <TextField
           type="text"
           name="name"
