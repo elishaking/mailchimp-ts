@@ -3,14 +3,15 @@
     display: block;
     border: none;
     outline: none;
-    border-bottom: 1px solid aquamarine;
+    border-bottom: 1px solid #ff9190;
     font-family: inherit;
     transition: 0.3s ease-in-out;
+    padding: 0.7em 0;
   }
 
   input:focus {
-    border-bottom-width: 3px;
-    border-bottom-color: aqua;
+    border-bottom-width: 2px;
+    border-bottom-color: #af5857;
   }
 
   span.error {

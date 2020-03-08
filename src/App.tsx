@@ -1,10 +1,17 @@
 import React from "react";
 import "./App.scss";
+import TextField from "./components/TextField";
 
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <TextField
+        type="text"
+        name="name"
+        placeholder="name"
+        value=""
+        onChange={e => console.log(e.target.value)}
+      />
     </div>
   );
 }
