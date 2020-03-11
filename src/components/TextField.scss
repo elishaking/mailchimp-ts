@@ -1,0 +1,21 @@
+.text-field {
+  input {
+    // display: block;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ff9190;
+    font-family: inherit;
+    transition: 0.3s ease-in-out;
+    padding: 0.7em 0.3em;
+    margin-bottom: 1em;
+  }
+
+  input:focus {
+    border-bottom-width: 2px;
+    border-bottom-color: #fc6f6d;
+  }
+
+  span.error {
+    color: red;
+  }
+}

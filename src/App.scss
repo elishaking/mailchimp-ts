@@ -1,0 +1,27 @@
+.app {
+  padding: 3em;
+  text-align: center;
+
+  .form {
+    input {
+      width: 80vw;
+      max-width: 300px;
+    }
+
+    button {
+      border: none;
+      outline: none;
+      text-transform: uppercase;
+      background-color: #fc6f6d;
+      color: white;
+      font-family: inherit;
+      padding: 0.7em 1.5em;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+    }
+
+    button:hover {
+      background-color: #c05654;
+    }
+  }
+}
