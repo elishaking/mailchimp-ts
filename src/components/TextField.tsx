@@ -18,6 +18,10 @@ export default function TextField({
   onChange,
   error
 }: TextFieldProps) {
+  const renderError = () => {
+    return error ? <span className="error">{error}</span> : null;
+  };
+
   return (
     <div className="text-field">
       <input
@@ -27,7 +31,7 @@ export default function TextField({
         value={value}
         onChange={onChange}
       />
-      {error && <span className="error">{error}</span>}
+      {renderError()}
     </div>
   );
 }
